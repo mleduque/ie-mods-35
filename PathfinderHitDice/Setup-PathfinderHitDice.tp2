@@ -103,6 +103,35 @@ COPY_EXISTING ~hpclass.2da~ ~override~
 BUT_ONLY_IF_IT_CHANGES
 
 /////////////////////////////////////////////////////////////////////////////////
+///  Higher (NWN-style) Rolls
+/////////////////////////////////////////////////////////////////////////////////
+
+BEGIN ~Higher(NWN-style) Rolls (CDTweaks)~
+
+SUBCOMPONENT ~Pathfinder Hit Dice~
+
+COPY ~PathfinderHitDice/HitDiceHigher~ ~override~
+
+COPY ~PathfinderHitDice/HitDiceHigher/HPBARB.2da~ ~override/HPBARB.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPCM.2da~ ~override/HPCM.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPCT.2da~ ~override/HPCT.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPDD.2da~ ~override/HPDD.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPFC.2da~ ~override/HPFC.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPFM.2da~ ~override/HPFM.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPFMT.2da~ ~override/HPFMT.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPFT.2da~ ~override/HPFT.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPMONK.2da~ ~override/HPMONK.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPMT.2da~ ~override/HPMT.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPPRS.2da~ ~override/HPPRS.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/hprog.2da~ ~override/hprog.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/HPWAR.2da~ ~override/HPWAR.2da~
+COPY ~PathfinderHitDice/HitDiceHigher/hpwiz.2da~ ~override/hpwiz.2da~
+
+COPY_EXISTING ~hpclass.2da~ ~override~
+  SET_2DA_ENTRY 56 1 2 ~HPFMT~
+BUT_ONLY_IF_IT_CHANGES
+
+/////////////////////////////////////////////////////////////////////////////////
 ///  Class Descriptions
 /////////////////////////////////////////////////////////////////////////////////
 
