@@ -1,0 +1,299 @@
+BACKUP ~PathfinderHitDice/backup~
+AUTHOR ~Reddbane~
+
+/////////////////////////////////////////////////////////////////////////////////
+///  Normal Rolls
+/////////////////////////////////////////////////////////////////////////////////
+
+BEGIN ~Normal Rolls (Default Game)~
+
+SUBCOMPONENT ~Pathfinder Hit Dice~
+
+COPY ~PathfinderHitDice/HitDice~ ~override~
+
+COPY ~PathfinderHitDice/HitDice/HPCM.2da~ ~override/HPCM.2da~
+COPY ~PathfinderHitDice/HitDice/HPCT.2da~ ~override/HPCT.2da~
+COPY ~PathfinderHitDice/HitDice/HPDD.2da~ ~override/HPDD.2da~
+COPY ~PathfinderHitDice/HitDice/HPFM.2da~ ~override/HPFM.2da~
+COPY ~PathfinderHitDice/HitDice/HPFMT.2da~ ~override/HPFMT.2da~
+COPY ~PathfinderHitDice/HitDice/HPFT.2da~ ~override/HPFT.2da~
+COPY ~PathfinderHitDice/HitDice/HPMT.2da~ ~override/HPMT.2da~
+COPY ~PathfinderHitDice/HitDice/hprog.2da~ ~override/hprog.2da~
+COPY ~PathfinderHitDice/HitDice/hpwiz.2da~ ~override/hpwiz.2da~
+
+COPY_EXISTING ~hpclass.2da~ ~override~
+  SET_2DA_ENTRY 56 1 2 ~HPFMT~
+BUT_ONLY_IF_IT_CHANGES
+
+/////////////////////////////////////////////////////////////////////////////////
+///  Average Rolls
+/////////////////////////////////////////////////////////////////////////////////
+
+BEGIN ~Average Rolls (CDTweaks)~ 
+
+SUBCOMPONENT ~Pathfinder Hit Dice~
+
+COPY ~PathfinderHitDice/HitDiceAverage~ ~override~
+
+COPY ~PathfinderHitDice/HitDiceAverage/HPCM.2da~ ~override/HPCM.2da~
+COPY ~PathfinderHitDice/HitDiceAverage/HPCT.2da~ ~override/HPCT.2da~
+COPY ~PathfinderHitDice/HitDiceAverage/HPDD.2da~ ~override/HPDD.2da~
+COPY ~PathfinderHitDice/HitDiceAverage/HPFM.2da~ ~override/HPFM.2da~
+COPY ~PathfinderHitDice/HitDiceAverage/HPFMT.2da~ ~override/HPFMT.2da~
+COPY ~PathfinderHitDice/HitDiceAverage/HPFT.2da~ ~override/HPFT.2da~
+COPY ~PathfinderHitDice/HitDiceAverage/HPMT.2da~ ~override/HPMT.2da~
+COPY ~PathfinderHitDice/HitDiceAverage/hprog.2da~ ~override/hprog.2da~
+COPY ~PathfinderHitDice/HitDiceAverage/hpwiz.2da~ ~override/hpwiz.2da~
+
+COPY_EXISTING ~hpclass.2da~ ~override~
+  SET_2DA_ENTRY 56 1 2 ~HPFMT~
+BUT_ONLY_IF_IT_CHANGES
+
+/////////////////////////////////////////////////////////////////////////////////
+///  Maximum Rolls
+/////////////////////////////////////////////////////////////////////////////////
+
+BEGIN ~Maximum Rolls (CDTweaks)~
+
+SUBCOMPONENT ~Pathfinder Hit Dice~
+
+COPY ~PathfinderHitDice/HitDiceMaximum~ ~override~
+
+COPY ~PathfinderHitDice/HitDiceMaximum/HPCM.2da~ ~override/HPCM.2da~
+COPY ~PathfinderHitDice/HitDiceMaximum/HPCT.2da~ ~override/HPCT.2da~
+COPY ~PathfinderHitDice/HitDiceMaximum/HPDD.2da~ ~override/HPDD.2da~
+COPY ~PathfinderHitDice/HitDiceMaximum/HPFM.2da~ ~override/HPFM.2da~
+COPY ~PathfinderHitDice/HitDiceMaximum/HPFMT.2da~ ~override/HPFMT.2da~
+COPY ~PathfinderHitDice/HitDiceMaximum/HPFT.2da~ ~override/HPFT.2da~
+COPY ~PathfinderHitDice/HitDiceMaximum/HPMT.2da~ ~override/HPMT.2da~
+COPY ~PathfinderHitDice/HitDiceMaximum/hprog.2da~ ~override/hprog.2da~
+COPY ~PathfinderHitDice/HitDiceMaximum/hpwiz.2da~ ~override/hpwiz.2da~
+
+COPY_EXISTING ~hpclass.2da~ ~override~
+  SET_2DA_ENTRY 56 1 2 ~HPFMT~
+BUT_ONLY_IF_IT_CHANGES
+
+/////////////////////////////////////////////////////////////////////////////////
+///  Ideal Average Rolls
+/////////////////////////////////////////////////////////////////////////////////
+
+BEGIN ~Ideal Average Rolls~
+
+SUBCOMPONENT ~Pathfinder Hit Dice~
+
+COPY ~PathfinderHitDice/HitDiceIdeal~ ~override~
+
+COPY ~PathfinderHitDice/HitDiceIdeal/HPBARB.2da~ ~override/HPBARB.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPCM.2da~ ~override/HPCM.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPCT.2da~ ~override/HPCT.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPDD.2da~ ~override/HPDD.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPFC.2da~ ~override/HPFC.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPFM.2da~ ~override/HPFM.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPFMT.2da~ ~override/HPFMT.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPFT.2da~ ~override/HPFT.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPMONK.2da~ ~override/HPMONK.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPMT.2da~ ~override/HPMT.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPPRS.2da~ ~override/HPPRS.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/hprog.2da~ ~override/hprog.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/HPWAR.2da~ ~override/HPWAR.2da~
+COPY ~PathfinderHitDice/HitDiceIdeal/hpwiz.2da~ ~override/hpwiz.2da~
+
+COPY_EXISTING ~hpclass.2da~ ~override~
+  SET_2DA_ENTRY 56 1 2 ~HPFMT~
+BUT_ONLY_IF_IT_CHANGES
+
+/////////////////////////////////////////////////////////////////////////////////
+///  Class Descriptions
+/////////////////////////////////////////////////////////////////////////////////
+
+BEGIN ~Patch Class Descriptions~
+
+COPY_EXISTING ~clastext.2da~ ~override~
+  COUNT_2DA_COLS cols // amount of columns
+  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+    READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+    PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~MAGE~ BEGIN
+      READ_2DA_ENTRY_FORMER rows row 4 ref // description
+      GET_STRREF	ref old
+      INNER_PATCH_SAVE	new ~%old%~	BEGIN
+        REPLACE_TEXTUALLY ~Hit Die: d4~ ~Hit Die: d6~
+      END
+      INNER_ACTION	BEGIN
+        STRING_SET_EVALUATE	ref ~%new%~
+      END
+    END
+  END
+BUT_ONLY
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	COPY_EXISTING ~LUSH0.2da~ ~override~
+	  COUNT_2DA_COLS cols // amount of columns
+	  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+	  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+		READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+		PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~MAGE~ BEGIN
+		  READ_2DA_ENTRY_FORMER rows row 4 ref // description
+		  GET_STRREF	ref old
+		  INNER_PATCH_SAVE	new ~%old%~	BEGIN
+			REPLACE_TEXTUALLY ~Hit Die: d4~ ~Hit Die: d6~
+		  END
+		  INNER_ACTION	BEGIN
+			STRING_SET_EVALUATE	ref ~%new%~
+		  END
+		END
+	  END
+	BUT_ONLY
+END
+	
+COPY_EXISTING ~clastext.2da~ ~override~
+  COUNT_2DA_COLS cols // amount of columns
+  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+    READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+    PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~SORCERER~ BEGIN
+      READ_2DA_ENTRY_FORMER rows row 4 ref // description
+      GET_STRREF	ref old
+      INNER_PATCH_SAVE	new ~%old%~	BEGIN
+        REPLACE_TEXTUALLY ~Hit Die: d4~ ~Hit Die: d6~
+      END
+      INNER_ACTION	BEGIN
+        STRING_SET_EVALUATE	ref ~%new%~
+      END
+    END
+  END
+BUT_ONLY
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	COPY_EXISTING ~LUSH0.2da~ ~override~
+	  COUNT_2DA_COLS cols // amount of columns
+	  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+	  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+		READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+		PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~SORCERER~ BEGIN
+		  READ_2DA_ENTRY_FORMER rows row 4 ref // description
+		  GET_STRREF	ref old
+		  INNER_PATCH_SAVE	new ~%old%~	BEGIN
+			REPLACE_TEXTUALLY ~Hit Die: d4~ ~Hit Die: d6~
+		  END
+		  INNER_ACTION	BEGIN
+			STRING_SET_EVALUATE	ref ~%new%~
+		  END
+		END
+	  END
+	BUT_ONLY
+END
+	
+COPY_EXISTING ~clastext.2da~ ~override~
+  COUNT_2DA_COLS cols // amount of columns
+  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+    READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+    PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~THIEF~ BEGIN
+      READ_2DA_ENTRY_FORMER rows row 4 ref // description
+      GET_STRREF	ref old
+      INNER_PATCH_SAVE	new ~%old%~	BEGIN
+        REPLACE_TEXTUALLY ~Hit Die: d6~ ~Hit Die: d8~
+      END
+      INNER_ACTION	BEGIN
+        STRING_SET_EVALUATE	ref ~%new%~
+      END
+    END
+  END
+BUT_ONLY
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	COPY_EXISTING ~LUSH0.2da~ ~override~
+	  COUNT_2DA_COLS cols // amount of columns
+	  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+	  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+		READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+		PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~THIEF~ BEGIN
+		  READ_2DA_ENTRY_FORMER rows row 4 ref // description
+		  GET_STRREF	ref old
+		  INNER_PATCH_SAVE	new ~%old%~	BEGIN
+			REPLACE_TEXTUALLY ~Hit Die: d6~ ~Hit Die: d8~
+		  END
+		  INNER_ACTION	BEGIN
+			STRING_SET_EVALUATE	ref ~%new%~
+		  END
+		END
+	  END
+	BUT_ONLY
+END
+	
+COPY_EXISTING ~clastext.2da~ ~override~
+  COUNT_2DA_COLS cols // amount of columns
+  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+    READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+    PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~BARD~ BEGIN
+      READ_2DA_ENTRY_FORMER rows row 4 ref // description
+      GET_STRREF	ref old
+      INNER_PATCH_SAVE	new ~%old%~	BEGIN
+        REPLACE_TEXTUALLY ~Hit Die: d6~ ~Hit Die: d8~
+      END
+      INNER_ACTION	BEGIN
+        STRING_SET_EVALUATE	ref ~%new%~
+      END
+    END
+  END
+BUT_ONLY
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	COPY_EXISTING ~LUSH0.2da~ ~override~
+	  COUNT_2DA_COLS cols // amount of columns
+	  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+	  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+		READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+		PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~BARD~ BEGIN
+		  READ_2DA_ENTRY_FORMER rows row 4 ref // description
+		  GET_STRREF	ref old
+		  INNER_PATCH_SAVE	new ~%old%~	BEGIN
+			REPLACE_TEXTUALLY ~Hit Die: d6~ ~Hit Die: d8~
+		  END
+		  INNER_ACTION	BEGIN
+			STRING_SET_EVALUATE	ref ~%new%~
+		  END
+		END
+	  END
+	BUT_ONLY
+END
+	
+COPY_EXISTING ~clastext.2da~ ~override~
+  COUNT_2DA_COLS cols // amount of columns
+  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+    READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+    PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~DRAGON_DISCIPLE~ BEGIN
+      READ_2DA_ENTRY_FORMER rows row 4 ref // description
+      GET_STRREF	ref old
+      INNER_PATCH_SAVE	new ~%old%~	BEGIN
+        REPLACE_TEXTUALLY ~Hit Die: d6~ ~Hit Die: d8~
+      END
+      INNER_ACTION	BEGIN
+        STRING_SET_EVALUATE	ref ~%new%~
+      END
+    END
+  END
+BUT_ONLY
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+	COPY_EXISTING ~LUSH0.2da~ ~override~
+	  COUNT_2DA_COLS cols // amount of columns
+	  READ_2DA_ENTRIES_NOW rows cols // read all file into memory 
+	  FOR (row = 1; row < rows; ++row) BEGIN // iterate over rows
+		READ_2DA_ENTRY_FORMER rows row 0 ~kit_name~ // read column value
+		PATCH_IF ~%kit_name%~ STRING_EQUAL_CASE ~DRAGON_DISCIPLE~ BEGIN
+		  READ_2DA_ENTRY_FORMER rows row 4 ref // description
+		  GET_STRREF	ref old
+		  INNER_PATCH_SAVE	new ~%old%~	BEGIN
+			REPLACE_TEXTUALLY ~Hit Die: d6~ ~Hit Die: d8~
+		  END
+		  INNER_ACTION	BEGIN
+			STRING_SET_EVALUATE	ref ~%new%~
+		  END
+		END
+	  END
+	BUT_ONLY
+END	
