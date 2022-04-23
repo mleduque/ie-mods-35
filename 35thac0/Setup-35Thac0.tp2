@@ -4,5 +4,5 @@ AUTHOR ~Reddbane~
 BEGIN ~3.5 Thac0~
 
 COPY ~35thac0/thac0tables~ ~override~
-  
+
 COPY ~35thac0/thac0tables/THAC0.2da~ ~override/THAC0.2da~
