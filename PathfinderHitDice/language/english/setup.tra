@@ -1,0 +1,19 @@
+
+@1 = ~Pathfinder Hit Dice~
+@2 = ~Normal Rolls (Default Game)~
+@3 = ~Average Rolls (CDTweaks)~
+@4 = ~Maximum Rolls (CDTweaks)~
+@5 = ~Ideal Average Rolls~
+@6 = ~Higher Rolls~
+@7 = ~Nwn-style Rolls (CDTweaks)~
+
+@300 = ~This component is only available on EE games~
+
+//regexes
+@1000 = ~Hit Die: d4~
+@1001 = ~Hit Die: d6~
+@1002 = ~Hit Die: d8~
+
+// replacemnt strings
+@1100 = ~Hit Die: d6~
+@1101 = ~Hit Die: d8~

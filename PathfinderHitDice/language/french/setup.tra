@@ -1,0 +1,21 @@
+
+@1 = ~Dé&s de vie Pathfinder~
+@2 = ~Jets normaux (Jeu par défaut)~
+@3 = ~Jets moyens (CDTweaks)~
+@4 = ~Jets maximums (CDTweaks)~
+@5 = ~Jet moyens idéaux~
+@6 = ~Jets plus élevés~
+@7 = ~Jets de style Nwn (CDTweaks)~
+
+@300 = ~Ce composant n'est disponible que pour les jeux EE~
+
+//regexes
+// bg1ee and iwdee: "Dés de vie :" or "Dés de vie :"
+// bg2ee "Dé de vie :"or "Dés de vie :"
+@1000 = ~Dés? de vie[^:]*: d4~
+@1001 = ~Dés? de vie[^:]*: d6~
+@1002 = ~Dés? de vie[^:]*: d8~
+
+// replacemnt strings
+@1100 = ~Dés de vie : d6~
+@1101 = ~Dés de vie : d8~
